@@ -51,7 +51,7 @@ public abstract class PlayerMixin extends LivingEntity {
         Level level = this.level();
         level.addParticle(ParticleTypes.EXPLOSION_EMITTER, this.getX(), this.getY(), this.getZ(), 1.0D, 0.0D, 0.0D);
         level.addParticle(ParticleTypes.EXPLOSION, this.getX(), this.getY(), this.getZ(), 1.0D, 0.0D, 0.0D);
-        level.playLocalSound(this.blockPosition(), SoundEvents.GENERIC_EXPLODE, SoundSource.PLAYERS,4.0F, 1, false);
+        level.playLocalSound(this.blockPosition(), SoundEvents.GENERIC_EXPLODE.value(), SoundSource.PLAYERS,4.0F, 1, false);
     }
 
     public Vec3 sonicBoom$getLastPos() {
