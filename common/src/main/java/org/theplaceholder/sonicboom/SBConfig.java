@@ -2,11 +2,12 @@ package org.theplaceholder.sonicboom;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
+import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 
 import static org.theplaceholder.sonicboom.SonicBoom.*;
 
-@me.shedaniel.autoconfig.annotation.Config(name = "sonicboom")
+@Config(name = "sonicboom")
 public class SBConfig implements ConfigData {
     public float explosionSpeed = 35f;
     public float explosionThresholdSpeed = 30f;

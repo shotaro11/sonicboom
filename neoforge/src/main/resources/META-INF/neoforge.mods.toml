@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[48,)"
+loaderVersion = "[2,)"
 issueTrackerURL = "https://github.com/someElseIsHere/sonicboom/issues"
 license = "GPL-3.0"
 
@@ -14,15 +14,18 @@ a useless client side mod
 logoFile = "../assets/sonicboom/icon.png"
 
 [[dependencies.sonicboom]]
-modId = "forge"
+modId = "neoforge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[20,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sonicboom]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20.6,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "sonicboom.mixins.json"

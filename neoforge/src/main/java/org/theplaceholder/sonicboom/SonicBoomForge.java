@@ -1,6 +1,7 @@
 package org.theplaceholder.sonicboom;
 
-import net.minecraftforge.fml.common.Mod;
+
+import net.neoforged.fml.common.Mod;
 
 @Mod("sonicboom")
 public class SonicBoomForge {
