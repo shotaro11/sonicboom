@@ -16,14 +16,14 @@ logoFile = "../assets/sonicboom/icon.png"
 [[dependencies.sonicboom]]
 modId = "neoforge"
 type="required"
-versionRange = "[21.0.0-beta,)"
+versionRange = "[21.3.4-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.sonicboom]]
 modId = "minecraft"
 type="required"
-versionRange = "[1.21,)"
+versionRange = "[1.21.3,)"
 ordering = "NONE"
 side = "BOTH"
 

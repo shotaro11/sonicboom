@@ -23,6 +23,6 @@
     "sonicboom.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.20.6"
+    "minecraft": ">=1.21.3"
     }
 }

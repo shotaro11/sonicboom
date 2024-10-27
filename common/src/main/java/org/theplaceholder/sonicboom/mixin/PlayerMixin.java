@@ -29,6 +29,7 @@ public abstract class PlayerMixin extends LivingEntity {
     public void aiStep(CallbackInfo info) {
         sonicBoom$lastPos = this.position();
     }
+
     @Inject(at = @At("HEAD"), method = "tick()V")
     public void tick(CallbackInfo info) {
         if(!this.level().isClientSide) return;
